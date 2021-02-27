@@ -1,10 +1,18 @@
 .chatslist {
-    // padding-left: 30px;
+    
 
     button {
-        border: none;
+        border: 1px solid #fffff1;
         padding: 10px 20px;
         font-weight: 800;
         font-size: 17px;
+        color: #161a1b;
+        background-color: #fff;
+
+        &:hover {
+            background-color: #161a1b;
+            color: #fff;
+            border: 1px solid #fffff1;
+        }
     }
 }

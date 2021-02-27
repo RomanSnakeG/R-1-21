@@ -3,11 +3,13 @@ import Message from '@components/Message';
 import './style.scss';
 // import MessageInput from '@components/MessageInput';
 import ChatsList from '@conteiners/ChatsList';
+import SendIcon from '@material-ui/icons/Send';
 
 export default class MessageList extends Component {
     
     
     constructor (props) {
+        
         super(props);
         this.state = {
             messages: [
@@ -59,7 +61,8 @@ export default class MessageList extends Component {
                 </div>
                 <div className="form-wrap">
                     <input className="input-send" type="text" value={ this.state.text } onChange={ this.handleChange } onKeyUp={ this.handleChange } />
-                    <button className="btn-send" onClick={ this.sendMessage }>Send</button>
+                    {/* <button className="btn-send" onClick={ this.sendMessage }>Send</button> */}
+                    <SendIcon className="btn-send" onClick={ this.sendMessage } />
                 </div>
                 
             </div>        

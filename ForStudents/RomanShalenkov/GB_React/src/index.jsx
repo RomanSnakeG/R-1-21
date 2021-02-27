@@ -12,10 +12,5 @@ ReactDom.render(
     <BrowserRouter>
         <Router />
     </BrowserRouter>,
-    // <StylesProvider>
-    //     <div>
-    //         <App />
-    //     </div>
-    // </StylesProvider>,
     container
 );

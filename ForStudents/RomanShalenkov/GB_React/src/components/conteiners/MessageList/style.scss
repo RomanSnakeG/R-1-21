@@ -18,6 +18,7 @@
 
     .message {
         padding: 30px;
+        // overflow-y: auto;
     }
 }
 .form-wrap {
@@ -26,14 +27,14 @@
     width: 100%;
 
     .btn-send {
-        border: none;
-        padding: 9px 20px;
-        font-weight: 800;
-        font-size: 17px;
+        padding: 9px 20px 10px;
         outline: none;
+        cursor: pointer;
+        margin-bottom: -17px;
+        background-color: #161a1b;
     }
     .input-send {
-        width: calc(100% - 130px);
+        width: calc(100% - 105px);
         padding: 14px 20px;
         margin: 0;
         outline: none;
